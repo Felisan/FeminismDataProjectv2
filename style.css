@@ -6,12 +6,14 @@ body {
 	background:  #bfbfbf;
 	font-family: 'Muli', sans-serif;
   color: white;
+
 }
 
 .btn-primary{
   color: white;
   background-color: #751aff;
-  border:none;
+  padding:5px;
+  margin-top: 5px;
 }
 
 .centered{
@@ -53,6 +55,17 @@ body {
   color: #979ea9;
   margin: 0;
   margin-top: 10px;
+}
+
+.cardfoot h3 {
+  font-size: 15px;
+  color: white;
+  padding: 0;
+  border:0;
+  margin: 0;
+  margin-top: 10px;
+  background-color: #3d3d5c;
+  width: 100%;
 }
 
 

@@ -25,18 +25,19 @@
 <body>
 
 <div class="container text-center">
-<h1>Did someone just tell you that we don't need feminism anymore? <br>Don't worry there's a perfect answer for each situation!</h1>
+<h1>Did someone just tell you that we don't need feminism anymore? <br>Don't worry, there's a perfect answer for each situation!</h1>
 </div> 
 
 <div class="row" id="buttons">
 <!-- buttons -->
  
     <div class="col-md-12 centered">
-     <button type="button" class="btn btn-primary" onclick="femEmployment()">Your coworker at the company's Christmas party</button>
-     <button type="button" class="btn btn-primary">Primary</button>
-     <button type="button" class="btn btn-primary">Primary</button>
-     <button type="button" class="btn btn-primary">Primary</button>
-     <button type="button" class="btn btn-primary">Primary</button>
+     <button type="button" class="btn btn-primary" onclick="deleteCards();femEmployment(); femOwners()">Stop victimizing women! If you work as hard as guys, you can go far in life</button>
+     <button type="button" class="btn btn-primary" onclick="deleteCards();femParliament(); femMinistries(); femPolice();femJudges()">
+     Please! Feminism is obsolete! It's not like women can't vote or run for office!</button>
+     <button type="button" class="btn btn-primary" onclick="deleteCards();femGirlsSchool(); femTercEduc(); femProf()">That guy in college who decided to start a "brogramers club" because “the women have one and it’s not fair”</button>
+     <button type="button" class="btn btn-primary" onclick="deleteCards();femDomWork(); femDomViolence(); femEarlyMarriage();femPartnerViolence()">I don't need feminism, because I love cooking for my fiancee!</button>
+     
     </div>
   
 </div>
@@ -46,8 +47,31 @@
   </div>
 
 </div>
+<footer class="footer">
+      <div class="container">
+        <span class="text-muted">This project was made by <a href="https://github.com/Felisan">Felisan</a>. All data comes from the World Bank API and the UN Data base. Feedback and comments are welcome at felisan at gmail</span>
+      </div>
 
 </body>
+
+<!-- Twitter -->
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 <!-- My Script -->
 <script src="script.js"></script>
 </html>
